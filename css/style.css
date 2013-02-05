@@ -2143,4 +2143,25 @@ blockquote p{
     z-index: 2000;
     top:210px;
 }
+#left-wheel {
+    background: url("../images/wheel.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    height: 56px;
+    position: absolute;
+    top: 65px;
+    width: 57px;
+    z-index: 2500;
+    left: 47px;
+}
+
+#right-wheel {
+    background: url("../images/wheel.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    height: 56px;
+    position: absolute;
+    top: 65px;
+    width: 57px;
+    z-index: 2500;
+    left: 312px;
+}
 

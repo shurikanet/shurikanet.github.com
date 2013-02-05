@@ -31,7 +31,7 @@
 			if( this.current < 0 || this.current >= this.slidesCount ) {
 			
 				this.current	= 0;
-			
+
 			}
 			
 			this.$slides.eq( this.current ).addClass( 'da-slide-current' );
@@ -95,7 +95,7 @@
 				d = dir;
 			
 			}
-				
+
 			if( this.cssAnimations && this.cssAnimations ) {
 				
 				if( d === 'next' ) {
@@ -112,7 +112,21 @@
 					--this.bgpositer;
 				
 				}
-				
+                $("#left-wheel").rotate({
+                    angle:0,
+                    animateTo:3600,
+                    duration:1500,
+                    easing: $.easing.easeInOutElastic
+                });
+                $("#right-wheel").rotate({
+                    angle:0,
+                    animateTo:3600,
+                    duration:1500,
+                    easing: $.easing.easeInOutElastic
+                    //easing: function (x,t,b,c,d){        // t: current time, b: begInnIng value, c: change In value, d: duration
+                    //    return c*(t/d)+b;
+                    // }
+                });
 				this.$el.css( 'background-position' , this.bgpositer * this.options.bgincrement + '% 0%' );
 			
 			}
@@ -132,7 +146,7 @@
 				
 				$current.removeClass( 'da-slide-current' );
 				$next.addClass( 'da-slide-current' );
-				
+
 			}
 			
 			// fallback
@@ -140,16 +154,16 @@
 				
 				$next.css( 'left', ( d === 'next' ) ? '100%' : '-100%' ).stop().animate( {
 					left : '0%'
-				}, 1000, function() { 
+				}, 1000, function() {
 					_self.isAnimating = false; 
 				});
 				
 				$current.stop().animate( {
 					left : ( d === 'next' ) ? '-100%' : '100%'
-				}, 1000, function() { 
+				}, 1000, function() {
 					$current.removeClass( 'da-slide-current' ); 
 				});
-				
+
 			}
 			
 			this._updatePage();
@@ -171,7 +185,7 @@
 				_self._navigate( page, 'next' );
 				
 				if( _self.options.autoplay ) {
-				
+
 					_self._startSlideshow();
 				
 				}
