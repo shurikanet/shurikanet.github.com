@@ -102,7 +102,8 @@
 				
 					classTo		= 'da-slide-toleft';
 					classFrom	= 'da-slide-fromright';
-					++this.bgpositer;
+                    //++this.bgpositer;  - always forward:-)
+					--this.bgpositer;
 				
 				}
 				else {
