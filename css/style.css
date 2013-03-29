@@ -2021,6 +2021,7 @@ blockquote p{
 }
 
 .componentality-slogan{
+    position: relative;
 
 }
 .componentality-slogan h1{
@@ -2033,7 +2034,7 @@ blockquote p{
     white-space: nowrap;
     width: 50%;
     z-index: 100000000;
-    left: 140px;
+    left: 160px;
     line-height: 90%;
     position: absolute;
 }
@@ -2063,6 +2064,7 @@ blockquote p{
 
     height: 122px;
     left: 38px;
+    top: 50px;
     position: absolute;
 
 }
