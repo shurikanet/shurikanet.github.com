@@ -2030,7 +2030,6 @@ blockquote p{
     font-size: 36px;
     font-weight: 700;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-    top: 10px;
     white-space: nowrap;
     width: 50%;
     z-index: 100000000;
