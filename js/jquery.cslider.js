@@ -104,13 +104,14 @@
 					classFrom	= 'da-slide-fromright';
                     //++this.bgpositer;  - always forward:-)
 					--this.bgpositer;
-				
+				    //alert(this.bgpositer);
 				}
 				else {
 				
 					classTo		= 'da-slide-toright';
 					classFrom	= 'da-slide-fromleft';
 					--this.bgpositer;
+                    //alert(this.bgpositer);
 				
 				}
                 $("#left-wheel").rotate({
