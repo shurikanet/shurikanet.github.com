@@ -7,7 +7,7 @@
     </list>
     <ignored path="parallax.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1364754011091" ignored="false" />
+    <file path="/Dummy.txt" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1364754301083" ignored="false" />
     <file path="/dummy.xml" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1364506410288" ignored="false" />
     <file path="/index.html" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1364507545284" ignored="false" />
     <file path="/style.css" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1364507932532" ignored="false" />
@@ -44,7 +44,7 @@
       <file leaf-file-name="contacts.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="39" selection-start="8954" selection-end="8954" vertical-scroll-proportion="0.21420519">
+            <state line="138" column="24" selection-start="7035" selection-end="7035" vertical-scroll-proportion="0.96166855">
               <folding />
             </state>
           </provider>
@@ -276,7 +276,11 @@
       <created>1364754038956</created>
       <updated>1364754038956</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="12345">
+      <created>1364754310837</created>
+      <updated>1364754310837</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -465,7 +469,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="39" selection-start="8954" selection-end="8954" vertical-scroll-proportion="0.21420519">
+        <state line="138" column="24" selection-start="7035" selection-end="7035" vertical-scroll-proportion="0.96166855">
           <folding />
         </state>
       </provider>
