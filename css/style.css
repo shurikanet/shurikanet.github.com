@@ -208,8 +208,8 @@ h4.title a {
 
 #top-header .slogan h2 {
     color: #fff;
-    font-family: tahoma;
-    font-size: 22px;
+    font-family: 'Economica', Arial, sans-serif;
+    font-size: 30px;
     font-weight: normal;
     margin: 10px 5px 0;
 }
@@ -273,31 +273,27 @@ h4.title a {
 
 .contact-us-address {
     color: #FFF;
-    font-size: 8px;
-    font-weight: bold;
+    font-size: 11px;
 }
 
 .block-phone-number {
-    font-weight: bold;
     color: #fff;
-    font-size: 19px;
-    font-family: tahoma serif;
-    margin: 15px 0 0;
+    font-size: 30px;
+    margin: 10px 0 4px;
 }
 
 .block-additional-contacts {
-    font-weight: bold;
     color: #fff;
-    font-size: 10px;
+    font-size: 14px;
     margin-left: 45px;
+    margin: 0 0 3px 45px;
 }
 
 .block-leave-message {
     font-weight: bold;
     color: #fff;
-    font-size: 14px;
+    font-size: 17px;
     cursor: pointer;
-    font-family: tahoma serif;
     line-height: 60%;
     margin-left: 45px;
 }
@@ -375,7 +371,7 @@ h4.title a {
 }
 
 #menu {
-    background: url("/images/menu-bgr.png") repeat-x scroll left top transparent;
+    /*background: url("/images/menu-bgr.png") repeat-x scroll left top transparent;*/
     height: 27px;
     left: 160px;
     position: absolute;
@@ -397,9 +393,9 @@ h4.title a {
 }
 
 #menu > ul > li > a {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
-    color: #fff;
+    color: #444;
     display: block;
     font-family: 'Droid Sans', sans-serif;
 }
@@ -409,7 +405,7 @@ h4.title a {
 }
 
 #menu .current {
-    color: #666 !important;
+    color: #00aeef !important;
 }
 
 #menu ul ul {
@@ -704,7 +700,6 @@ h4.title a {
     height: 100%;
     top: 0px;
     left: 0;
-    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
 }
 
@@ -1672,7 +1667,7 @@ article.span3 h4 {
 
 /* Footer Menu */
 #footer-menu {
-    background: url("/images/footer_bg.png") repeat-x scroll 0 0 #05192C;
+    background: #444444;
     color: white;
     width: 100%;
 }
@@ -1698,7 +1693,7 @@ article.span3 h4 {
 }
 
 #footer-menu a:hover {
-    color: #323232;
+    color: #000;
 }
 
 #footer-menu p {
@@ -2727,4 +2722,8 @@ blockquote p {
     top: 50px;
     position: absolute;
 
+}
+
+.font-specific {
+    font-family: 'Economica', Arial, sans-serif;
 }
