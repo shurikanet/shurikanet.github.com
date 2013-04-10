@@ -6,8 +6,8 @@
 /*-----------------------------------------------------------------------------------*/
 body {
     color: #555;
-    font-size: 12px;
-    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-family: "Open Sans", Arial, serif;
 
 }
 
@@ -265,7 +265,7 @@ h4.title a {
 .block-address {
     left: 8px;
     position: relative;
-    top: -16px;
+    top: -17px;
     z-index: 100;
     line-height: 90%;
     max-width: 110px;
@@ -274,6 +274,7 @@ h4.title a {
 .contact-us-address {
     color: #FFF;
     font-size: 11px;
+    line-height: 110%;
 }
 
 .block-phone-number {
@@ -636,12 +637,12 @@ h4.title a {
 }
 
 .da-text-wrapper span {
-    display: block;
     color: #a0a0a0;
-    font-size: 12px;
     line-height: 135%;
     margin-left: 50px;
     margin-bottom: 10px;
+    display: block;
+    font-size: 12px;
 }
 
 .da-text-wrapper h5 {
@@ -658,10 +659,10 @@ h4.title a {
 }
 
 .da-text {
-    width: 300px;
+    width: 600px;
     background: url("/images/cover.png") no-repeat scroll left top transparent;
     width: 435px;
-    height: 238px;
+    height: 338px;
     left: 120px;
     position: absolute;
 }
@@ -1212,7 +1213,6 @@ h4.title a {
 
 #welcome p {
     line-height: 22px;
-    font-size: 12px;
     color: #333;
     margin-bottom: 50px;
 
@@ -1503,7 +1503,6 @@ article.span3 h4 {
 /* Testimonials */
 .testimonials p {
     line-height: 22px;
-    font-size: 12px;
     padding: 0 15px 15px 38px;
     background: #fff url('../images/quotes.png') no-repeat top left;
     border-bottom: 1px dotted #efefef;
@@ -2475,6 +2474,8 @@ blockquote p {
     body {
         padding: 0;
         color: #555;
+        font-family: "Open Sans", Arial, serif;
+        font-size: 14px;
     }
 
     .container {
@@ -2726,4 +2727,42 @@ blockquote p {
 
 .font-specific {
     font-family: 'Economica', Arial, sans-serif;
+}
+
+#footer {
+    background: none repeat scroll 0 0 #333333;
+    border-top: 2px solid #3AC0F9;
+    color: rgba(255, 255, 255, 0.6);
+    min-height: 200px;
+    padding: 20px 0;
+    font-size: 14px;
+    font-family: "Open Sans", Arial, serif;
+}
+
+#footer h3 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.2em;
+    line-height: 1 text-rendering : optimizelegibility;
+    font-family: "Open Sans", Arial, serif;
+    font-weight: bold;
+}
+
+#footer .contact-block i {
+    background-image: url("../img/glyphicons-halflings-white.png");
+}
+
+#footer .block {
+    margin-bottom: 2em;
+}
+
+#footer .contact-block p {
+    margin-bottom: 0.2em;
+}
+
+#footer a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#footer abbr[title] {
+    border-bottom: 0px;
 }
