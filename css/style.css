@@ -642,7 +642,6 @@ h4.title a {
     margin-left: 50px;
     margin-bottom: 10px;
     display: block;
-    font-size: 12px;
 }
 
 .da-text-wrapper h5 {
@@ -654,7 +653,6 @@ h4.title a {
 }
 
 .da-text-wrapper a {
-    font-size: 11px;
     text-decoration: underline;
 }
 
@@ -2742,7 +2740,7 @@ blockquote p {
 #footer h3 {
     color: rgba(255, 255, 255, 0.8);
     font-size: 1.2em;
-    line-height: 1 text-rendering : optimizelegibility;
+    line-height: 1;
     font-family: "Open Sans", Arial, serif;
     font-weight: bold;
 }
