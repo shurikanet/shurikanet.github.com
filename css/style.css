@@ -1245,6 +1245,7 @@ h4.title a {
     text-transform: uppercase;
     font-family: 'Economica', Arial, sans-serif;
     color: #00add5;
+    line-height: 110%;
 }
 
 .divider-arrow {
