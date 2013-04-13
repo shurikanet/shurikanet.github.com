@@ -14,34 +14,35 @@
     <link rel="icon" href="images/favicon.png" type="image/png">
     <link rel="shortcut icon" href="images/favicon.png" type="image/png"/>
     <title>Componentality Home Page</title>
-    <link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
-    <link href="css/style.css" type="text/css" rel="stylesheet"/>
-    <link href="css/prettyPhoto.css" type="text/css" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="css/style_common.css"/>
-    <link rel="stylesheet" type="text/css" href="css/style5.css"/>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="js/jquery.quicksand.js"></script>
-    <script type="text/javascript" src="js/superfish.js"></script>
-    <script type="text/javascript" src="js/hoverIntent.js"></script>
-    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
-    <script type="text/javascript" src="js/jflickrfeed.min.js"></script>
-    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="js/jquery.elastislide.js"></script>
-    <script type="text/javascript" src="js/jquery.tweet.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <script type="text/javascript" src="js/jquery.ui.totop.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/ajax-mail.js"></script>
-    <script type="text/javascript" src="js/accordion.settings.js"></script>
-    <script type="text/javascript" src="js/jquery.cslider.js"></script>
-    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <link href="../css/bootstrap.css" type="text/css" rel="stylesheet"/>
+    <link href="../css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="../css/prettyPhoto.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="../css/style_common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style5.css"/>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../js/jquery.quicksand.js"></script>
+    <script type="text/javascript" src="../js/superfish.js"></script>
+    <script type="text/javascript" src="../js/hoverIntent.js"></script>
+    <script type="text/javascript" src="../js/jquery.hoverdir.js"></script>
+    <script type="text/javascript" src="../js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="../js/jflickrfeed.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="../js/jquery.elastislide.js"></script>
+    <script type="text/javascript" src="../js/jquery.tweet.js"></script>
+    <script type="text/javascript" src="../js/smoothscroll.js"></script>
+    <script type="text/javascript" src="../js/jquery.ui.totop.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../js/ajax-mail.js"></script>
+    <script type="text/javascript" src="../js/accordion.settings.js"></script>
+    <script type="text/javascript" src="../js/jquery.cslider.js"></script>
+    <script type="text/javascript" src="../js/modernizr.custom.js"></script>
 
 
     <!--Le Google Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Economica:700,400italic|Open+Sans:400,700,300' rel='stylesheet'
+          type='text/css'>
 
 </head>
 
@@ -53,7 +54,7 @@
             <div class="row">
                 <div class="span5 logo">
                     <div class="float-left">
-                        <a href="index.html"><img src="/images/logo-componentality.png" alt="logo"/></a>
+                        <a href="../index.html"><img src="/images/logo-componentality.png" alt="logo"/></a>
                         <span class="part-logo hidden-phone"></span>
                     </div>
                     <div class="float-left slogan hidden-phone hidden-tablet">
@@ -75,7 +76,7 @@
                     <div class="float-left hidden-phone hidden-tablet">
                         <div class="block-phone-image"></div>
                     </div>
-                    <div class="float-left hidden-phone">
+                    <div class="float-left hidden-phone font-specific">
                         <div class="block-phone-number"> +35 846566 2016</div>
                         <div class="block-additional-contacts">Russia: +7 9643286964</div>
                         <div class="block-leave-message"><a href="#">Leave A Message</a></div>
@@ -92,11 +93,12 @@
                 <div class="offset1">
                     <nav id="menu" class="pull-left">
                         <ul class="hidden-phone">
-                            <li><a href="index.html" class="current">Home</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Partners</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about/">About</a></li>
+                            <li><a href="/celebrity/">Celebrity</a></li>
+                            <li><a href="/flexroad/">FlexRoad</a></li>
+                            <li><a href="/drivity/" class="current">Drivity</a></li>
+                            <li><a href="/partners/">Partners</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -118,17 +120,24 @@
             <div class="span8 offset2 promo-header">
                 <div class="">
 
-                    <h2>Componentality makes V2X communications cheap
+                    <h2>Drivity platform
                     </h2>
                 </div>
                 <article class="promo">
 
-                    <p><img src="/images/n-image-slider-3.jpg" class="image-right" alt=""/>
-                        Our FlexRoad™ devices are open source andfreely available low cost modules supportingIEEE 802.11p vehicle to vehicle and vehicleto infrastructure communication</p>
-                    <p>Supplied with GPS/GLONASS, optional GSMand 3G connectivity and various set ofaccessories, FlexRoad™ makes IntelligentTransportation Systems as easy as homeor office WiFi
+                    <p><img src="/images/n-image-slider-4.png" class="image-right" alt=""/>
                     </p>
 
-                    <p>Componentality always offers excellent quality for discount price. It is our law!</p>
+
+                    <p>Drivity platform is&nbsp;an&nbsp;easily customizable basis for fleet management, vehicle
+                        tracking, stolen car recovery and other &lsquo;true embedded&rsquo; communication products.</p>
+
+                    <p>Drivity is&nbsp;also a&nbsp;platform for a set of&nbsp;custom products such as eCall&nbsp;/ ERA
+                        GLONASS onboard units, advanced toll road monitoring and payment enforcement OBUs and portable
+                        safety trackers</p>
+
+                    <p>Drivity is&nbsp;ultimately cheap and supports various types of&nbsp;Cortex M3/M4CPUs for optimal
+                        performance and cost effectiveness</p>
 
                 </article>
             </div>
@@ -179,6 +188,7 @@
                     <h3>Newsletter</h3>
 
                     <p>Stay up to date with our latest news and product releases by signing up to our newsletter.</p>
+
                     <form class="form-inline">
                         <div class="input-append">
                             <input class="input-medium" type="text" placeholder="Email"/>
