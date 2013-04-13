@@ -18,15 +18,15 @@
     </list>
     <ignored path="parallax.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1365836554286" ignored="false" />
+    <file path="/Dummy.txt" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1365836665328" ignored="false" />
     <file path="/dummy.xml" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1364506410288" ignored="false" />
-    <file path="/index.html" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1365836533250" ignored="false" />
+    <file path="/index.html" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1365836672675" ignored="false" />
     <file path="/style.css" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1365613506338" ignored="false" />
     <file path="/123.html" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1364671236473" ignored="false" />
     <file path="/345.html" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1364671421239" ignored="false" />
     <file path="/contacts.html" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1365610611090" ignored="false" />
-    <file path="$PROJECT_DIR$/index.html" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1365836520324" ignored="false" />
-    <file path="$PROJECT_DIR$/about/index.html" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1365836535345" ignored="false" />
+    <file path="$PROJECT_DIR$/index.html" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1365836598031" ignored="false" />
+    <file path="$PROJECT_DIR$/about/index.html" changelist="fac23aeb-0afe-406d-9b3e-ca7d77798676" time="1365836672675" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="291" column="0" selection-start="12774" selection-end="12774" vertical-scroll-proportion="0.5113636">
+            <state line="281" column="14" selection-start="12478" selection-end="12478" vertical-scroll-proportion="3.0392158">
               <folding />
             </state>
           </provider>
@@ -100,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="39" selection-start="5836" selection-end="5836" vertical-scroll-proportion="-3.627451">
+            <state line="45" column="11" selection-start="2619" selection-end="2619" vertical-scroll-proportion="0.42992425">
               <folding />
             </state>
           </provider>
@@ -441,7 +441,11 @@
       <created>1365614058447</created>
       <updated>1365614058447</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="12345">
+      <created>1365836574764</created>
+      <updated>1365836574765</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -627,16 +631,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="39" selection-start="5836" selection-end="5836" vertical-scroll-proportion="-3.627451">
+        <state line="281" column="14" selection-start="12478" selection-end="12478" vertical-scroll-proportion="3.0392158">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/about/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="291" column="0" selection-start="12774" selection-end="12774" vertical-scroll-proportion="0.5113636">
+        <state line="45" column="11" selection-start="2619" selection-end="2619" vertical-scroll-proportion="0.42992425">
           <folding />
         </state>
       </provider>
