@@ -81,7 +81,7 @@ h3 {
     margin-bottom: 10px;
     line-height: 18px;
     font-weight: 400;
-    font-family: 'Economica', Arial, sans-serif;
+    font-family: 'Economica', 'PT Sans Narrow', Arial, sans-serif;
 }
 
 h4 {
@@ -142,7 +142,7 @@ h4.title a {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.05em;
-    font-family: 'Economica', Arial, sans-serif;
+    font-family: 'Economica', 'PT Sans Narrow', Arial, sans-serif;
 }
 
 .title a:hover {
@@ -208,7 +208,7 @@ h4.title a {
 
 #top-header .slogan h2 {
     color: #fff;
-    font-family: 'Economica', Arial, sans-serif;
+    font-family: 'Economica', 'PT Sans Narrow', Arial, sans-serif;
     font-size: 30px;
     font-weight: normal;
     margin: 10px 5px 0;
@@ -390,7 +390,7 @@ h4.title a {
     list-style: none;
     float: left;
     position: relative;
-    padding: 2px 25px 0px 25px;
+    padding: 2px 20px 0;
 }
 
 #menu > ul > li > a {
@@ -624,7 +624,7 @@ h4.title a {
     color: #fff;
     font-size: 20px;
     text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
-    font-family: 'Economica', Arial, sans-serif;
+    font-family: 'Economica', 'PT Sans Narrow', Arial, sans-serif;
     text-align: center;
     margin: 0 auto;
     display: block;
@@ -648,7 +648,7 @@ h4.title a {
     color: #888;
     margin-bottom: 3px;
     margin-left: 50px;
-    font-family: 'Economica', Arial, sans-serif;
+    font-family: 'Economica', 'PT Sans Narrow', Arial, sans-serif;
     font-size: 20px;
 }
 
@@ -737,7 +737,7 @@ h4.title a {
 
 .da-slide h2 {
     color: #00AEEF;
-    font-family: 'Economica', Arial, sans-serif;
+    font-family: 'Economica', 'PT Sans Narrow', Arial, sans-serif;
     font-size: 36px;
     font-weight: 700;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -757,7 +757,7 @@ h4.title a {
     text-shadow: 1px 1px #FFFFFF;
     top: 50px;
     width: 45%;
-    font-family: 'Economica', Arial, sans-serif;
+    font-family: 'Economica', 'PT Sans Narrow', Arial, sans-serif;
 }
 
 .da-slide .da-img {
@@ -1206,7 +1206,7 @@ h4.title a {
     line-height: 30px !important;
     margin-bottom: 10px !important;
     text-transform: uppercase;
-    font-family: 'Economica', Arial, sans-serif;
+    font-family: 'Economica', 'PT Sans Narrow', Arial, sans-serif;
 }
 
 #welcome p {
@@ -1231,7 +1231,7 @@ h4.title a {
     z-index: 1000;
     font-size: 20px;
     text-transform: uppercase;
-    font-family: 'Economica', Arial, sans-serif;
+    font-family: 'Economica', 'PT Sans Narrow', Arial, sans-serif;
 }
 
 .title-divider h3 span {
@@ -1243,7 +1243,7 @@ h4.title a {
 
     font-size: 45px;
     text-transform: uppercase;
-    font-family: 'Economica', Arial, sans-serif;
+    font-family: 'Economica', 'PT Sans Narrow', Arial, sans-serif;
     color: #00add5;
     line-height: 110%;
 }
@@ -1430,7 +1430,7 @@ article.span3 h4 {
     border: 1px solid #b6b6b6;
     border-radius: 4px 4px 4px 4px;
     text-shadow: 1px 1px #aaa;
-    font-family: 'Economica', Arial, sans-serif;
+    font-family: 'Economica', 'PT Sans Narrow', Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -2677,7 +2677,7 @@ blockquote p {
 
 .componentality-slogan h1 {
     color: #444;
-    font-family: 'Economica', Arial, sans-serif;
+    font-family: 'Economica', 'PT Sans Narrow', Arial, sans-serif;
     font-size: 36px;
     font-weight: 700;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -2725,7 +2725,7 @@ blockquote p {
 }
 
 .font-specific {
-    font-family: 'Economica', Arial, sans-serif;
+    font-family: 'Economica', 'PT Sans Narrow', Arial, sans-serif;
 }
 
 #footer {
@@ -2764,4 +2764,14 @@ blockquote p {
 
 #footer abbr[title] {
     border-bottom: 0px;
+}
+
+.block-languages {
+    margin: 7px 0 4px 0px;
+    position: relative;
+}
+
+.block-languages a {
+    outline: 0px;
+
 }
